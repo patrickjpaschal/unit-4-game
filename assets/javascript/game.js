@@ -14,14 +14,10 @@ for (var i = 0; i < gems.length; i++) {
     gemElement.value =  Math.floor(Math.random() * 11);
 }
 
-    var styles = [
-    font-size, "20px",
-    font-family, 'Noto Sans',
-    font-weight, "600",
-    color, "rgb(5, 5, 68)",
-]
-
-$("#number-box").css(styles);
+ 
+$("#number-box").css("font-size", "18px");
+$("#number-box").css("color", "darkblue");
+$("#number-box").css("font-weight", "550");
  function load(){
    document.getElementById("number-box").innerHTML= "Try to get " + goalNum; 
 }

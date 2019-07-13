@@ -1,0 +1,118 @@
+body {
+    background:rgb(82, 127, 172);
+   
+    margin:0;
+    padding:0px;
+}
+#main-text {
+    background:rgb(82, 127, 172);
+   
+    color:rgb(5, 5, 68);
+    font-family: 'Noto Sans', "Montserrat", "Avenir";
+    font-weight:600;
+    font-size: 20px;
+}
+header {
+    background-color:tan;
+    font-size: 38px;    
+    font-family: cursive;
+    width:50%;
+    margin:0px 320px;
+    padding:15px;
+    border-radius:15%;
+    font-weight:700;
+    align-self: center;
+    text-align:center;
+    color:black;
+   
+}
+#stripe{
+    background:white;
+    text-align:center;
+    height:20px;
+}
+#stripe1{
+    background:white;
+    height:20px;
+}
+#reset{
+    background:none;
+    border:none;
+    outline:none;
+    height:20px;
+    font-size:18px;
+    text-transform:uppercase;
+    text-emphasis: bolder;
+}
+#reset:hover{
+    opacity:.5;
+    transition: 0.6;
+    background:tan;
+    border-radius:25%;
+}
+#reset:active{
+    opacity:1;
+}
+.number-box {
+    background:rgb(82, 127, 172);
+    color:rgb(5, 5, 68);
+    float:left;
+    width:175px;
+    height:150px;
+    font-size: 20px;
+
+}
+.score {
+    background:rgb(82, 127, 172);
+    width:175px;
+    height:197px;
+    padding:15px;
+    font-size:20px;
+    float:left;
+    color:rgb(5, 5, 68);
+}
+.running {
+    background:rgb(82, 127, 172);
+    width:25%;
+    color:lightgreen;
+    padding:20px;
+    height:50px;
+    float:right;
+    margin:0 0 35px:
+    width:150px;
+ 
+}
+footer
+{
+    
+    
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+    
+.btn{
+    outline:none;
+    
+}
+
+.btn:hover{
+    /* transition:2s; */
+    opacity:0.5;
+}
+.btn:active{
+    opacity: 1;
+}

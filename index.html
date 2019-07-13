@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Crystal Game </title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<div id="page-container">
+<body>
+      <div id= "content-wrap">
+        <div>
+            <header>Crystal's Collector!</header>
+                <div id="stripe">
+                    <button id="reset">New Gems</button>
+                    <span id="message"></span>
+                </div>
+            
+                <div id= "main-text">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it. </p>
+                    <p>each time when the game starts, the game will change the value of each crystal.</p>
+                </div>
+                <!-- The goal number -->
+                <div id="stripe1"><span id="game data"></span></div>
+
+                    <div id= "number-box">Click a gem to see the winning number </div>
+                    
+                <!-- Toal wins and loses -->
+                    <div class= "score">
+                        <p id="wins">Wins:</p>
+                        <p id="loses">Loses:</p>
+                    </div>
+                </div>
+                <!-- The pictures of gems user clicks -->
+                    <div id= "gems"><br>
+                          
+                        <input type="image" class="btn gem" id="gemOne" src="assets\images\Ruby.png"></input>
+                        <input type="image" class="btn gem" id="gemTwo" src="assets\images\Emerald.png"></input>
+                        <input type="image" class="btn gem" id="gemThree" src="assets\images\Topaz.png"></input>
+                        <input type="image" class="btn gem" id="gemFour" src="assets\images\Sapphire.png"></input>
+                    </div>
+               <!-- the current total number -->
+                    <div><p id= "running">You're currently at </p></div>
+                <!--The worth of the gem the user just clicked  -->
+                    <div class= "gemsWorth"></div>
+
+
+
+
+
+                </div>
+
+
+        </div>
+    
+    <footer id ="footer">The Crystal Game 2019</footer>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./assets/javascript/game.js"></script>
+</body>
+</html>
